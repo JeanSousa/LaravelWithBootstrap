@@ -1,0 +1,12 @@
+//aqui posso sobrescrever as cores do sistema como por exemplo a primary ou criar novas
+//ao fazer mudanças rodar npm run dev
+$theme-colors: (
+  "orange": #ff2d20
+);
+
+
+
+
+//estou importando o bootstrap.scss da node_modules
+// '~' serve para voltar todos os diretórios, ele acha bootstrap dentro da node modules
+@import "~bootstrap/scss/bootstrap";
